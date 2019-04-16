@@ -5,5 +5,73 @@
 }
 
 body {
-    background-color: #FFF176;
+    background-color: #fabe08;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.site-header {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #916e03;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+main {
+    width: 100%;
+    margin: 20px auto 0 auto;
+    text-align: center;
+}
+
+.site-section {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.site-section__title {
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.site-section label { text-align: center }
+
+.site-section__text {
+    resize: none;
+    font-family: inherit;
+    font-size: .9rem;
+    width: 80%;
+    padding: 5px;
+    background-color: #feecb7;
+    transition: all .2s ease-in-out;
+    border: 2px solid #fcd664;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.site-section__text:hover { border: 2px solid #513d02 }
+
+.site-section__text:focus {
+    background-color: #fff;
+    border: 2px solid #513d02;
+}
+
+.site-section__button {
+    width: 30%;
+    text-align: center;
+    background-color: #0288D1;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    color: #fff;
+    margin-top: 20px;
+    transition: background-color .35s;
+}
+
+.site-section__button:hover {
+    cursor: pointer;
+    background-color: #015b8b;
 }
