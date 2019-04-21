@@ -1,3 +1,4 @@
+const memeTemplate = document.querySelectorAll('.meme-template');
 const topText = document.getElementById('topText');
 const bottomText = document.getElementById('bottomText');
 const generateBtn = document.getElementById('genereteBtn');
@@ -10,8 +11,6 @@ memeForm.addEventListener('submit', (e) => {
         e.preventDefault();
         alert('Write some text to meme');
     }
-
-    
 });
 
 function generateMeme(template) {

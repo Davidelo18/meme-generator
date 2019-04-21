@@ -13,66 +13,64 @@
 <body>
     <header class="site-header">Meme Generator</header>
     <main>
-        <section class="site-section">
-            <h1 class="site-section__title">Select template</h1>
-            <div class="site-section__templates">
-                <figure class="site-section__memetmp">
-                    <img src="templates/1.jpg">
-                    <figcaption></figcaption>
-                </figure>
-                <figure class="site-section__memetmp">
-                    <img src="templates/2.jpg">
-                    <figcaption></figcaption>
-                </figure>
-                <figure class="site-section__memetmp">
-                    <img src="templates/3.png">
-                    <figcaption></figcaption>
-                </figure>
-                <figure class="site-section__memetmp">
-                    <img src="templates/4.png">
-                    <figcaption></figcaption>
-                </figure>
-                <figure class="site-section__memetmp">
-                    <img src="templates/5.png">
-                    <figcaption></figcaption>
-                </figure>
-                <figure class="site-section__memetmp">
-                    <img src="templates/6.png">
-                    <figcaption></figcaption>
-                </figure>
-                <figure class="site-section__memetmp">
-                    <img src="templates/7.png">
-                    <figcaption></figcaption>
-                </figure>
-                <figure class="site-section__memetmp">
-                    <img src="templates/8.png">
-                    <figcaption></figcaption>
-                </figure>
-                <figure class="site-section__memetmp">
-                    <img src="templates/9.png">
-                    <figcaption></figcaption>
-                </figure>
-                <figure class="site-section__memetmp">
-                    <img src="templates/10.png">
-                    <figcaption></figcaption>
-                </figure>
-                <figure class="site-section__memetmp">
-                    <img src="templates/11.png">
-                    <figcaption></figcaption>
-                </figure>
-                <figure class="site-section__memetmp">
-                    <img src="templates/12.png">
-                    <figcaption></figcaption>
-                </figure>
-            </div>
-        </section>
         <form id="memeForm" action="javascript:void(0);">
             <section class="site-section">
+                <h1 class="site-section__title">Select template</h1>
+                <div class="site-section__templates">
+                    <label class="site-section__memetmp">
+                        <img class="meme-template" src="templates/1.jpg">
+                        <input class="radio-template" type="radio" name="memeTemplate">
+                    </label>
+                    <label class="site-section__memetmp">
+                        <img class="meme-template" src="templates/2.jpg">
+                        <input class="radio-template" type="radio" name="memeTemplate">
+                    </label>
+                    <label class="site-section__memetmp">
+                        <img class="meme-template" src="templates/3.png">
+                        <input class="radio-template" type="radio" name="memeTemplate">
+                    </label>
+                    <label class="site-section__memetmp">
+                        <img class="meme-template" src="templates/4.png">
+                        <input class="radio-template" type="radio" name="memeTemplate">
+                    </label>
+                    <label class="site-section__memetmp">
+                        <img class="meme-template" src="templates/5.png">
+                        <input class="radio-template" type="radio" name="memeTemplate">
+                    </label>
+                    <label class="site-section__memetmp">
+                        <img class="meme-template" src="templates/6.png">
+                        <input class="radio-template" type="radio" name="memeTemplate">
+                    </label>
+                    <label class="site-section__memetmp">
+                        <img class="meme-template" src="templates/7.png">
+                        <input class="radio-template" type="radio" name="memeTemplate">
+                    </label>
+                    <label class="site-section__memetmp">
+                        <img class="meme-template" src="templates/8.png">
+                        <input class="radio-template" type="radio" name="memeTemplate">
+                    </label>
+                    <label class="site-section__memetmp">
+                        <img class="meme-template" src="templates/9.png">
+                        <input class="radio-template" type="radio" name="memeTemplate">
+                    </label>
+                    <label class="site-section__memetmp">
+                        <img class="meme-template" src="templates/10.png">
+                        <input class="radio-template" type="radio" name="memeTemplate">
+                    </label>
+                    <label class="site-section__memetmp">
+                        <img class="meme-template" src="templates/11.png">
+                        <input class="radio-template" type="radio" name="memeTemplate">
+                    </label>
+                    <label class="site-section__memetmp">
+                        <img class="meme-template" src="templates/12.png">
+                        <input class="radio-template" type="radio" name="memeTemplate">
+                    </label>
+                </div>
+            </section>
+            <section class="site-section">
                 <h1 class="site-section__title">Write text</h1>
-                <label><textarea type="text" id="topText" class="site-section__text"
-                        placeholder="Top text"></textarea></label>
-                <label><textarea type="text" id="bottomText" class="site-section__text"
-                        placeholder="Bottom text"></textarea></label>
+                <label><textarea type="text" id="topText" class="site-section__text" placeholder="Top text"></textarea></label>
+                <label><textarea type="text" id="bottomText" class="site-section__text" placeholder="Bottom text"></textarea></label>
             </section>
             <button class="site-section__button" id="genereteBtn">Generate meme</button>
         </form>
