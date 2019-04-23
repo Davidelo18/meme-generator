@@ -140,3 +140,7 @@ main {
     transform: rotate(360deg);
   }
 }
+
+canvas {
+  z-index: 10;
+}
