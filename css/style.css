@@ -64,7 +64,12 @@ main {
 }
 
 .radio-template {
-  //display: none;
+  display: none;
+}
+
+.radio-template:checked + .site-section__memetmp { 
+  background-color: #c78c04;
+  border: 1px solid #000;
 }
 
 .site-section label {
@@ -143,4 +148,5 @@ main {
 
 canvas {
   z-index: 10;
+  margin: 20px 0;
 }
